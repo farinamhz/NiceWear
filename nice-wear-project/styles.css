@@ -1,0 +1,31 @@
+body{
+  background-image: url('back.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+   padding-bottom: 121px;
+   display: flex;
+   position: absolute;
+   overflow: scroll;
+}
+.title1{
+  font-size:3vw;
+  margin-top: 100px;
+}
+.back{
+  margin-left: 150px;
+}
+.items{
+  margin-top: 500px;
+  margin-left: 100px;
+  width:70vw;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
