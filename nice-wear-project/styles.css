@@ -2,9 +2,11 @@
     list-style-type: none;
     margin-top: 50px;
     padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
     overflow: hidden;
-    height: auto;
     background-color: #EAE7DC;
+    position: absolute;
 }
 
 .nav-left {
@@ -14,7 +16,6 @@
 .nav-right {
     float: right;
     text-align: center;
-
 }
 
 .li-a-class {
@@ -44,6 +45,7 @@ a.li-a-class:hover {
     float: left;
     margin-left: 7%;
     margin-top: 7%;
+    font-family: Ruluko;
 }
 
 .title1 {
@@ -74,6 +76,7 @@ a.li-a-class:hover {
     text-align: center;
     margin-left: 46%;
     margin-top: 55%;
+    font-family: Ruluko;
 }
 
 .sf {
@@ -89,13 +92,14 @@ a.li-a-class:hover {
     position: absolute;
 }
 
-.card-body{
-  text-align: center;
+.card-body {
+    text-align: center;
 }
+
 .card-deck {
     position: absolute;
     margin-top: 63%;
-    padding-left:12%;
+    padding-left: 12%;
     width: 90vw;
     f height: 11vw;
     display: flex;
@@ -107,6 +111,7 @@ a.li-a-class:hover {
     width: 7vw;
     height: 7vw;
 }
+
 footer {
     position: absolute;
     width: 100%;
